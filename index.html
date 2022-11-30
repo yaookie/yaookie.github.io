@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/tools.css">
+    <script type="text/javascript" src="./jquery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./js/tools.js"></script>
+</head>
+
+<body>
+    <div id="contianer">
+        <!-- 天气 -->
+        <div class="containerDiv">
+            <h3>天气查询</h3>
+            <input class="inputObj" type="text" name="city" id="cityInput" value="武汉" placeholder="请输入城市名">
+            <input type="button" id="weatherQueryBtn" value="查询"> <br>
+            <div id="weatherInfo"></div>
+        </div>
+
+        <!-- IP -->
+        <div class="containerDiv">
+            <h3>IP查询</h3>
+            <input class="inputObj" type="text" name="IP" id="IPInput" placeholder="请输入IP地址或点击查询查看当前IP">
+            <input type="button" id="IPQueryBtn" value="查询">
+            <div id="IPInfo"></div>
+        </div>
+
+        <!-- 手机归属地 -->
+        <div class="containerDiv">
+            <h3>手机归属地查询</h3>
+            <input class="inputObj" type="text" name="numberLocationInfo" id="numberInput" placeholder="请输入手机号并保证准确性">
+            <input type="button" id="numberLocationInfoQueryBtn" value="查询">
+            <div id="numberLocationInfo">
+            </div>
+        </div>
+
+        <!-- B站用户信息 -->
+        <div class="containerDiv">
+            <h3>B站用户信息查询</h3>
+            <input class="inputObj" type="text" name="biliUserInfo" id="uidInput" placeholder="请输入用户uid">
+            <input type="button" id="biliUserInfoQueryBtn" value="查询">
+            <div id="biliUserInfo"></div>
+        </div>
+
+        <!-- QQ用户信息 -->
+        <div class="containerDiv">
+            <h3>QQ用户信息查询</h3>
+            <input class="inputObj" type="text" name="QQUserInfo" id="qqInput" placeholder="请输入QQ号">
+            <input type="button" id="QQUserInfoQueryBtn" value="查询">
+            <div id="QQUserInfo"></div>
+        </div>
+
+        <!-- 随机名言 -->
+        <div class="containerDiv">
+            <h3>随机一句</h3>
+            <!-- <input class="inputObj" type="text" name="" id="" placeholder=""> -->
+            <input type="button" id="quotaInfoQueryBtn" value="获取">
+            <input type="button" id="clearQuotaInfo" value="清空">
+            <div id="quotaInfo">
+            </div>
+        </div>
+
+        <!-- 一言 -->
+        <div class="containerDiv">
+            <h3>一言</h3>
+            <input type="button" id="yiyanInfoQueryBtn" value="获取">
+            <input type="button" id="clearyiyanInfo" value="清空">
+            <div id="yiyanInfo">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
